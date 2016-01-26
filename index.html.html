@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	   <meta charset="utf-8">
+	   <title>Wiredwiki App </title>
+	   <meta name = "description" content = "Wiredwiki App">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	
+    </head>
+    
+    <style>
+	body {
+		padding-top: 40px;
+	}
+        #jumbotron{
+            background-color: teal;
+        }
+	</style>
+    
+    
+    <body style="background-color:lightgrey;">
+        
+        <!--navbar-->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="top-navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a href="" class="navbar-brand">Riley Chadwick</a>
+                </div><!--navbar header-->
+                
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#portfolio">Portfolio</a>
+                        <li><a href="#about">About</a>
+                        <li><a href="#contact">Contact</a>
+                    </ul>
+                </div><!--end list-->
+            </div><!--end container-->
+        </nav><!--end navbar-->
+        
+        <!--jumbotron-->
+        <div class="jumbotron background-color" id="jumbotron">
+            <div class="container">             
+                <div class="row">
+                    <div class="col-md-3 pull-left">
+                        <img src="myPhoto.jpg" class="img-circle img-responsive">
+                    </div>
+                    
+                    <div class="col-md-4 col-md-offset-1 ">
+                        <hr><hr>
+                        <h1>Riley Chadwick</h1>
+                    </div>
+                    <div class="col-md-4 text-left">
+                        <hr><hr>
+                        <h1><small>Game Programmer/Designer, Software Developer</small></h1>
+                    </div>
+                        
+                </div>
+            </div><!--end container-->
+        </div><!--jumbotron-->
+        
+        <!--showcase-->
+        <div class="container">
+            <section>
+                <div class="page-header" id="gallery">
+                    <h2>Some of my projects.</h2>
+                </div>
+
+                <div class="carousel slide" id="screenshot-carousel" data-ride="carousel" data-interval="false">
+                    <ol class="carousel-indicators">
+                        <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+                        <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="">
+                            <img src="gamePic.jpg" alt="game1">    
+                            </a>
+                            <div class="carousel-caption">
+                                <h3>Game Caption</h3>
+                                <p>
+                                    What is made for. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="">
+                            <img src="gamePic.jpg" alt="game1">    
+                            </a>
+                            <div class="carousel-caption">
+                                <h3>Game Caption</h3>
+                                <p>
+                                    What is made for. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="">
+                            <img src="gamePic.jpg" alt="game1">    
+                            </a>
+                            <div class="carousel-caption">
+                                <h3>Game Caption</h3>
+                                <p>
+                                    What is made for. 
+                                </p>
+                            </div>
+                        </div>
+                    </div><!--end carousel inner-->
+
+                    <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+
+                </div>       
+            </section>
+        </div><!--end gallery-->
+        
+        
+        <script src = "http://code.jquery.com/jquery-2.2.0.min.js"></script>
+	   <!-- Latest compiled and minified JavaScript -->
+	   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    </body>
+    
+</html>
