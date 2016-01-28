@@ -18,12 +18,12 @@
 		padding-top: 40px;
 	}
         #jumbotron{
-            background-color: teal;
+            background-color: #19A6FF;
         }
 	</style>
     
     
-    <body style="background-color:lightgrey;">
+    <body style="background-color: lightgrey;">
         
         <!--navbar-->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="top-navbar">
@@ -36,7 +36,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     
-                    <a href="" class="navbar-brand">Riley Chadwick</a>
+                    <a href="http://www.rileychadwick.com" class="navbar-brand">Riley Chadwick</a>
                 </div><!--navbar header-->
                 
                 <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -51,24 +51,19 @@
         
         <!--jumbotron-->
         <div class="jumbotron background-color" id="jumbotron">
-            <div class="container">             
+            <div class="container container-fluid">             
                 <div class="row">
-                    <div class="col-md-3 pull-left">
-                        <img src="photos\myPhoto.jpeg" class="img-circle img-responsive">
+                    <div class="col-md-4">
+                        <img src="photos\myPhoto.jpeg" class="img-rounded img-responsive">
                     </div>
                     
-                    <div class="col-md-4 col-md-offset-1 ">
+                    <div class="col-md-8">
                         <hr><hr>
-                        <h1>Riley Chadwick</h1>
+                        <h1>Riley Chadwick</h1><br>
+                        <p>
+                            Game Programmer/Designer, Software Developer
+                        </p>
                     </div>
-                    <div class="col-md-4 text-left">
-                        <hr><hr>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-offset-3 col-md-8 text-right">
-                            <h2>Game Programmer/Designer, Software Developer</h2>
-                        </div>
-                    </div>    
                 </div>
             </div><!--end container-->
         </div><!--jumbotron-->
@@ -83,7 +78,7 @@
                     <div class="">
                         
                     </div>
-                    <div class="col-md-12 panel text-center">
+                    <div class="col-md-12 panel text-center" style="background-color: white;">
                         <br>
                         <h2>About Me</h2>
                         <br>
@@ -221,28 +216,28 @@
         
         <hr><hr><hr>
         
-        <!--end about me-->
+        <!--contact me-->
         <div class="container" id="contact">
             <section>
                 <div class="page-header">
                     <h2>Contact Me</h2>
                 </div>
                 <div class="panel panel-group">
-                    <div class="row">
-                        <div class="panel col-md-4 text-center">
+                    <div class="row vdivide">
+                        <div class="col-md-4 text-center">
                             <h3>Email</h3>
                             <p>
                                 rtc.chadwick@yahoo.com
                             </p>
                         </div>
-                        <div class="panel col-md-4 text-center">
+                        <div class="col-md-4 text-center">
+                            <span class="glyphicon glyphicon-earphone"></span>
                             <h3>Phone</h3>
-                            <img src="" class="glyphicon glyphicon-earphone">
                             <p>
                                 This is my number
                             </p>
                         </div>
-                        <div class="panel col-md-4 text-center">
+                        <div class="col-md-4 text-center">
                             <h3>Address</h3>
                             <p>
                                 Where I live... Dont stock me. 
@@ -254,7 +249,14 @@
                 
                 
             </section>
-        </div>
+        </div> <!--end Contact me-->
+        
+        
+        <!--footer-->
+        <div class="navbar navbar-inverse navbar-bottom">
+            
+        </div><!--end footer-->
+     
         
         
         <script src = "http://code.jquery.com/jquery-2.2.0.min.js"></script>
