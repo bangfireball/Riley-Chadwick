@@ -1,194 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-	   <meta charset="utf-8">
-	   <title>Riley Chadwick</title>
-	   <meta name = "description" content = "Wiredwiki App">
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<head>
+    <meta charset="utf-8">
+    <title>Riley Chadwick</title>
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-	
-    </head>
+    <link rel="stylesheet" type="text/css" href="vertical-center.css">
+    <meta name="description" content="Wiredwiki App">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+</head>
+
+<style>
+    body {
+        padding-top: 40px;
+        /*background-image: url(photos/backgrounds/indexBG.png); */
+    }
     
-    <style>
-	body {
-		padding-top: 40px;
-	}
-        #jumbotron{
-            background-color: #19A6FF;
-        }
-	</style>
-    
-    
-    <body style="background-color: lightgrey;">
-        
-        <!--navbar-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="top-navbar">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    
-                    <a href="http://www.rileychadwick.com" class="navbar-brand">Riley Chadwick</a>
-                </div><!--navbar header-->
-                
-                <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#portfolio">Portfolio</a>
+    #jumbotron {
+        /*background-color: #19A6FF;*/
+    }
+
+</style>
+
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="top-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="http://www.rileychadwick.com" class="navbar-brand">Riley Chadwick</a>
+            </div>
+            <!--navbar header-->
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#portfolio">Portfolio</a>
                         <li><a href="#about">About</a>
-                        <li><a href="#contact">Contact</a>
-                    </ul>
-                </div><!--end list-->
-            </div><!--end container-->
-        </nav><!--end navbar-->
-        
-        <!--jumbotron-->
-        <div class="jumbotron background-color" id="jumbotron">
-            <div class="container container-fluid">             
-                <div class="row">
+                            <li><a href="#contact">Contact</a>
+                </ul>
+            </div>
+            <!--end list-->
+        </div>
+        <!--end container-->
+    </nav>
+    <!--end navbar-->
+
+    <!--jumbotron-->
+    <div class="jumbotron" id="jumbotron">
+        <div class="container container-fluid">
+            <div class="row">
+                <hr>
+                <div class="col-md-4">
+                    <img src="photos\myPhoto.jpeg" class="img-rounded img-responsive">
+                </div>
+
+                <div class="col-md-8">
                     <hr>
+                    <h1>Riley Chadwick</h1>
+                    <br>
+                    <p>
+                        Game Programmer/Designer, Software Developer
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--end container-->
+    </div>
+    <!--jumbotron-->
+
+
+
+
+    <!--about me-->
+
+    <div class="container" id="about">
+        <section>
+            <div class="page-header">
+                <h2>About Me</h2>
+            </div>
+
+            <div class="row">
+                <div class="panel ">
+                    <div class="col-md-8 vertical-center text-center" style="background-color: white;">
+                        <br>
+                        <p>
+                            I am currently a senior at Eastern Kentucky University studying Computer Science with a concentration in Interactive Multimedia. I design and program games and software and have been using what i have learned to participate in local Game Jams. I have also been selected as one of the three people to represent EKU on the annanl Train Jam and at the Global Game Conference.
+                        </p>
+                        <br>
+                    </div>
                     <div class="col-md-4">
-                        <img src="photos\myPhoto.jpeg" class="img-rounded img-responsive">
-                    </div>
-                    
-                    <div class="col-md-8">
-                        <hr>
-                        <h1>Riley Chadwick</h1><br>
-                        <p>
-                            Game Programmer/Designer, Software Developer
-                        </p>
+                        <img src="photos/backgrounds/image-coming-soon.png">
                     </div>
                 </div>
-            </div><!--end container-->
-        </div><!--jumbotron-->
-        
-        <hr><hr><hr>
-        
-           <!--about me-->
-        <div class="container" id="about">
-            <section>
-                <div class="page-header">
-                    <h2>About Me</h2>
+            </div>
+
+
+        </section>
+    </div>
+
+    <!--
+   <div class="well">
+    <div class="container">
+        <div class="page-header">
+            <h2>Skills</h2>
+        </div>
+
+
+        <div class="panel">
+            <div class="row">
+                <div class="col-md-2">
+                    <h2>Technical:</h2>
                 </div>
-             
-                <div class="row">
-                    <div class="">
-                        
-                    </div>
-                    <div class="col-md-12 panel text-center" style="background-color: white;">
-                        <br>
-                        <p>
-                            I am currently a senior at Eastern Kentucky University studying Computer Science with a concentration in 
-                            Interactive Multimedia. I design and program games and software and have been using what i have learned to participate in local Game Jams. I have also been selected as one of the three people to represent EKU on the annanl Train Jam and at the Global Game Conference. 
-                        </p>
-                        <br>
-                    </div>
-                    <div class="">
-                        
-                    </div>
+
+                <div class="col-md-10 text-left">
+                    <br>
+                    <kbd>Unity</kbd> <kbd>Visual Studio</kbd> <kbd>Java</kbd> <kbd>C#</kbd>
                 </div>
-                
-            </section>
-        </div><!--end about me-->
+            </div>
+        </div>
+
+    </div>
+</div>
+    <!--end about me-->
+
+    <hr>
+    <hr>
+    <hr>
+
+
+    <!--portfolio-->
+    <div class="well">
         
-        <hr><hr><hr>
         
-        <!--portfolio-->
-        <div class="container" id="portfolio">
+        <div class="container well" id="portfolio">
             <div class="page-header">
                 <h2>Portfolio  <small>Click on a picture for more information</small></h2>
             </div>
             <div class="row">
-                <div class="panel col-md-4 text-center">
-                    <blockquote>
+                <div class="panel panel-default col-md-4 text-center">
+                    <div class="panel-body">
                         <h3>A Journey to You</h3>
                         <img src="photos/game/Game1_1.jpg" class="img-responsive">
+                        <br>
+                        <img src="photos/game/Game1_2.jpg" class="img-responsive">
                         <p>
                             Global Game Jam 2015
                         </p>
-                    </blockquote>
-                    
+                    </div>
                 </div>
-                <div class="panel col-md-4 text-center">
-                    <blockquote>
+                <div class="panel panel-default col-md-4 text-center">
+                    <div class="panel-body">
                         <h3>Kitty Kommander</h3>
                         <img src="photos/game/Game2_1.jpg" class="img-responsive">
+                        <br>
+                        <img src="photos/game/Game2_2.jpg" class="img-responsive">
                         <p>
                             Ludum Dare 2015
                         </p>
-                    </blockquote>
+                    </div>
                 </div>
-                <div class="panel col-md-4 text-center">
-                    <blockquote>
+                <div class="panel panel-default col-md-4 text-center">
+                    <div class="panel-body">
                         <h3>Angry Pumpkins</h3>
+                        <img src="photos/game/Game3_3.jpg" class="img-responsive">
+                        <br>
+                        <img src="photos/game/Game3_2.jpg" class="img-responsive">
+                        <br>
                         <img src="photos/game/Game3_3.jpg" class="img-responsive">
                         <p>
                             EKU Game Jam 2015
                         </p>
-                    </blockquote>
+                    </div>
                 </div>
             </div>
         </div>
-        
-        <!--end portfolio-->
-       
-        
-        <hr><hr><hr>
-        
-        <!--contact me-->
-        <div class="container" id="contact">
-            <section>
-                <div class="page-header">
-                    <h2>Contact Me</h2>
-                </div>
-                <div class="panel panel-group">
-                    <div class="row vdivide">
-                        <div class="col-md-4 text-center">
-                            <h3>Email</h3>
-                            <p>
-                                Email address
-                            </p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <span class="glyphicon glyphicon-earphone"></span>
-                            <h3>Phone</h3>
-                            <p>
-                                This is my number
-                            </p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <h3>Address</h3>
-                            <p>
-                                Where I live... Dont stock me. 
-                            </p>
-                        </div>
-                             
-                    </div>
-                </div>
-                
-                
-            </section>
-        </div> <!--end Contact me-->
-        
-        
-        <!--footer-->
-        <div class="navbar navbar-inverse navbar-bottom">
-            
-        </div><!--end footer-->
-     
-        
-        
-        <script src = "http://code.jquery.com/jquery-2.2.0.min.js"></script>
-	   <!-- Latest compiled and minified JavaScript -->
-	   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </div>
 
-    </body>
-    
+
+    <!--end portfolio-->
+
+
+    <hr>
+    <hr>
+    <hr>
+
+    <!--contact me-->
+    <div class="container panel" id="contact">
+        <section>
+            <div class="page-header">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="panel panel-group">
+                <div class="row vdivide">
+                    <div class="col-md-4 text-center">
+                        <h3>Email</h3>
+                        <p>
+                            Email address
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <span class="glyphicon glyphicon-earphone"></span>
+                        <h3>Phone</h3>
+                        <p>
+                            This is my number
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h3>Address</h3>
+                        <p>
+                            Where I live... Dont stock me.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+    <!--end Contact me-->
+
+
+
+    <!--footer-->
+    <div class="navbar navbar-inverse navbar-bottom">
+
+    </div>
+    <!--end footer-->
+
+
+
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
