@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <title>Riley Chadwick</title>
 
-    <link rel="stylesheet" type="text/css" href="vertical-center.css">
     <meta name="description" content="Wiredwiki App">
 
     <!-- Latest compiled and minified CSS -->
@@ -83,7 +82,8 @@
     <!--jumbotron-->
 
 
-
+    <hr>
+    <hr>
 
     <!--about me-->
 
@@ -98,7 +98,7 @@
                     <div class="col-md-8 vertical-center text-center" style="background-color: white;">
                         <br>
                         <p>
-                            I am currently a senior at Eastern Kentucky University studying Computer Science with a concentration in Interactive Multimedia. I design and program games and software and have been using what i have learned to participate in local Game Jams. I have also been selected as one of the three people to represent EKU on the annanl Train Jam and at the Global Game Conference.
+                            I am currently a senior at Eastern Kentucky University studying Computer Science with a concentration in Interactive Multimedia. I design and program games and software and have been using what i have learned to participate in local Game Jams. I have also been selected as one of the three people to represent EKU on the annual Train Jam and at the Global Game Conference.
                         </p>
                         <br>
                     </div>
@@ -139,14 +139,15 @@
 
     <hr>
     <hr>
-    <hr>
+
 
 
     <!--portfolio-->
     <div class="well">
-        
-        
-        <div class="container well" id="portfolio">
+        <hr>
+        <hr>
+
+        <div class="container" id="portfolio">
             <div class="page-header">
                 <h2>Portfolio  <small>Click on a picture for more information</small></h2>
             </div>
@@ -186,60 +187,121 @@
                         </p>
                     </div>
                 </div>
+            </div><!--end row-->
+            <div class="row">
+                <div class="panel panel-default col-md-6 text-center">
+                    <div class="panel-body">
+                        <h3>Ritroll</h3>
+                        <img src="photos/backgrounds/image-coming-soon.png">
+                        <p>
+                            Global Game Jam 2016
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
+        <hr>
+        <hr>
     </div>
 
 
     <!--end portfolio-->
 
 
-    <hr>
+
     <hr>
     <hr>
 
-    <!--contact me-->
-    <div class="container panel" id="contact">
+   <!--contact-->
+    <div class="container">
         <section>
-            <div class="page-header">
-                <h2>Contact Me</h2>
+            <div class="page-header" id="contact">
+                <h2>Got Some Questions?</h2>
             </div>
-            <div class="panel panel-group">
-                <div class="row vdivide">
-                    <div class="col-md-4 text-center">
-                        <h3>Email</h3>
-                        <p>
-                            Email address
-                        </p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <span class="glyphicon glyphicon-earphone"></span>
-                        <h3>Phone</h3>
-                        <p>
-                            This is my number
-                        </p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <h3>Address</h3>
-                        <p>
-                            Where I live... Dont stock me.
-                        </p>
-                    </div>
-
+            
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>
+                        Just send me an email and i will get back to you. 
+                    </p>
                 </div>
-            </div>
-
-
+                <form action="http://formspree.io/rtc.chadwick@yahoo.com" method="POST">
+                 
+                <div class="col-lg-8">
+                    <form action="" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="user-name" class="col-lg-2 control-label">
+                                Name
+                            </label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+                            </div>
+                        </div><!--end form group-->
+                        
+                         <div class="form-group">
+                            <label for="user-email" class="col-lg-2 control-label">
+                                Email
+                            </label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-email" placeholder="Enter your Email">
+                            </div>
+                        </div><!--end form group-->
+                        
+                         <div class="form-group">
+                            <label for="user-url" class="col-lg-2 control-label">
+                                Your Website
+                            </label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-url" placeholder="If you have any">
+                            </div>
+                        </div><!--end form group-->
+                        
+                         <div class="form-group">
+                            <label for="user-message" class="col-lg-2 control-label">
+                                Message
+                            </label>
+                            <div class="col-lg-10">
+                                <textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" 
+                                          placeholder="Enter your Message"></textarea>
+                            </div>
+                        </div><!--end form group-->
+                        
+                        <div class="form-group">
+                            <div class="col-lg-2 col-lg-offset-10">
+                                <input type="submit" value="Submit" class="btn btn-primary">
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+                       
+                </form>
+                
+            </div><!--end row-->
+            
         </section>
-    </div>
-    <!--end Contact me-->
+    </div><!--end contact us-->
+	
 
 
 
     <!--footer-->
-    <div class="navbar navbar-inverse navbar-bottom">
-
-    </div>
+     <!--footer-->
+    <footer>
+        <hr>
+       <div class="navbar navbar-inverse navbar-bottom text-center">
+           <font color="white">
+           <br>
+               <br>
+          
+           <p>
+               &copy;Copyright RileyChadwick @ 2016
+           </p>
+               
+               </font>
+			</div> <!--end Container-->
+    </footer>
+    
     <!--end footer-->
 
 
