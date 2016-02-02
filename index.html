@@ -235,7 +235,7 @@
                                     Name
                                 </label>
                                 <div class="col-lg-10">
-                                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name">
                                 </div>
                             </div>
                             <!--end form group-->
@@ -245,7 +245,7 @@
                                     Email
                                 </label>
                                 <div class="col-lg-10">
-                                    <input type="email" class="form-control" id="_replyto" placeholder="Enter your Email">
+                                    <input type="email" class="form-control" name="_replyto" id="user-email" placeholder="Enter your Email">
                                 </div>
                             </div>
                             <!--end form group-->
@@ -255,7 +255,7 @@
                                     Your Website
                                 </label>
                                 <div class="col-lg-10">
-                                    <input type="text" class="form-control" id="url" placeholder="If you have any">
+                                    <input type="text" name="message" class="form-control" id="url" placeholder="If you have any">
                                 </div>
                             </div>
                             <!--end form group-->
@@ -274,6 +274,7 @@
                                 <div class="col-lg-2 col-lg-offset-10">
                                     <input type="submit" value="Submit" class="btn btn-primary">
                                     <input type="hidden" name="_next" value="index.html" </div>
+                                    <input type="text" name="_gotcha" style="display:none" />
                                 </div>
 
                         </form>
@@ -287,19 +288,6 @@
 
                 </div>
                 <!--end row-->
-                
-                <form id="contactform" method="POST">
-    <input type="text" name="name" placeholder="Your name">
-    <input type="email" name="_replyto" placeholder="Your email">
-    <input type="hidden" name="_subject" value="Website contact" />
-    <textarea name="message" placeholder="Your message"></textarea>
-    <input type="text" name="_gotcha" style="display:none" />
-    <input type="submit" value="Send">
-</form>
-<script>
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', 'http://formspree.io/' + 'bangfireball' + '@' + 'yahoo' + '.' + 'com');
-</script>
 
         </section>
         </div>
