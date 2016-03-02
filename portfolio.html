@@ -26,9 +26,7 @@
 
 </head>
 <style>
-    #gameone{
-       
-    }
+    #gameone {}
     
     .panel-heading {
         height: 200px;
@@ -38,9 +36,25 @@
         -webkit-background-size: auto;
         -moz-background-size: contain;
         -o-background-size: contain;
+        position: relative;
     }
-</style>
     
+    h2 {
+        padding-top: 100px;
+    }
+    
+    h2 span {
+        color: white;
+        font: bold 50px/45px Helvetica, Sans-Serif;
+        letter-spacing: -1px;
+        background: rgb(0, 0, 0);
+        /* fallback color */
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+    }
+
+</style>
+
 <body>
 
     <!-- Navigation -->
@@ -93,40 +107,33 @@
         <div class="panel-group" id="accordion">
             <div class="panel panel-default">
                 <div class="panel-heading" style=" background-image: url(photos/game/Game1_1.jpg);" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                    
-                </div>
-                
+                    <h2><span>This is a test</span></h2>
                 </div>
                 <div id="collapse1" class="panel-collapse collapse in">
                     <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                 </div>
             </div>
-            <div class="panel panel-default">
-                <div class="panel-heading" style=" background-image: url(photos/game/Game1_1.jpg);">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                        Collapsible Group 2</a>
-                    </h4>
+
+            
+           <div class="panel panel-default">
+                <div class="panel-heading" style=" background-image: url(photos/game/Game1_1.jpg);" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                    <h2><span>This is a test</span></h2>
                 </div>
                 <div id="collapse2" class="panel-collapse collapse">
                     <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                 </div>
             </div>
-            <div class="panel panel-default">
-                <div class="panel-heading" style=" background-image: url(photos/game/Game1_1.jpg);">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                        Collapsible Group 3</a>
-                    </h4>
+            
+            
+           <div class="panel panel-default">
+                <div class="panel-heading" style=" background-image: url(photos/game/Game1_1.jpg);" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                    <h2><span>This is a test</span></h2>
                 </div>
                 <div id="collapse3" class="panel-collapse collapse">
                     <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                 </div>
             </div>
         </div>
-
-
-        <hr class="featurette-divider">
 
     </div>
 
