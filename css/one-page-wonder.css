@@ -19,6 +19,17 @@ body {
     -o-background-size: cover;
 }
 
+.cave-game-header {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('../photos/backgrounds/theCave/theCaveHeader.png') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .headline {
     padding: 120px 0;
 }
